@@ -97,7 +97,7 @@ label= "BASE"                                                  ;
               &kp Q        &kp W        &kp E        &kp R        &kp T                             &kp Y        &kp U        &kp I        &kp O        &kp P
     &none     &mt LCTRL A  &mt LALT S   &mt LGUI D   &mt LSHFT F  &kp G                             &kp H        &mt RSHFT J  &mt RGUI K   &mt RALT L   &mt RCTRL SEMI &none
     &none     &kp Z        &kp X        &kp C        &kp V        &kp B        &kp C_MUTE &kp C_PP  &kp N        &kp M        &kp COMMA    &kp DOT      &kp FSLH        &none
-                                  &mt BSPC TAB &lt RAISE RET &mt LGUI SPACE &bootloader &studio_unlock     &mt LSHFT RET &lt LOWER BSPC &mt BSPC ESC
+                                  &mt BSPC TAB &lt RAISE RET &mt LGUI SPACE &bootloader &lt ADJUST &bootloader     &mt LSHFT RET &lt LOWER BSPC &mt BSPC ESC
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
